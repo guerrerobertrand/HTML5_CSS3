@@ -1,0 +1,64 @@
+p
+{
+	width: 30%; /* largeur du bloc (obligatoire) */
+	min-width:400px;
+	background-color:silver;
+	border: 1px solid black;
+	text-align: center;
+	padding: 12px; /* Marge intérieure de 12 px */
+	margin: auto; /* Centrer le bloc */
+	margin-bottom: 50px;  /* Marge extérieure du bas de 50 px = espace les paragraphes */
+	overflow:auto; /* Le texte s'ajuste en fonction du bloc, si les dimensions sont fixes, une barre de défilement est proposée */
+}
+
+nav
+{
+	display:inline-block;
+	/*float:left;*/
+	width:150px;
+	border:1px solid black;
+	position:fixed;
+/*	right:0px;
+	bottom:0px; élément en bas à droite */
+}
+
+section
+{
+	display:inline-block;
+	padding-left:30px;
+	margin-left:170px;
+	padding-right:30px;
+	margin-bottom:170px;
+	border:1px solid blue;
+}
+
+a
+{
+	display:block;
+}
+
+.secret
+{
+	display:none;
+}
+
+strong
+{
+	background-color:red; /* Couleur du fond en Rouge */
+	color:yellow; /* Couleur du texte important */
+/*	position:relative;
+	left:55px;
+	top:10px; */ /* Pour changer la position d'un mot... */
+}
+
+
+table
+{
+	border-collapse:collapse;
+}
+
+td, th
+{
+	border:1px solid black;
+	text-align:center;
+}

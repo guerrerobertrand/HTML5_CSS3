@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="style_site1.css" />
+		<title> Mon site personnel </title>
+	</head>
+
+	<body>
+		<header>
+			<h1>Le site personnel de Bertrand</h1>
+			<h2 class="secret">Menu</h2>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="#">Accueil</a></li>
+				<li><a href="#">Galerie de photos</a></li>
+				<li><a href="#">CV</a></li>
+			</ul>
+		</nav>
+		
+		<section>
+			<aside>
+				<h1>A propos de l'auteur</h1>
+				<p>C'est moi, je suis né à Toulouse</p>	
+			</aside>
+			<article>
+				<h1>J'ai une famille</h1>
+				<p>Texte de l'article</p>
+			</article>
+		</section>
+
+		<footer>
+			<p>Copyright <strong>Bertrand</strong> - tous droits réservés<br />
+			<a href="#">Me contacter !</a>
+			<a href="#">Mon partenaire !</a>
+			<a href="#">Mon sponsor !</a></p>
+		</footer>
+
+<!-- Mon tableau -->
+<table>
+	<caption>Mon premier Tableau </caption> <!--Titre du tableau -->
+
+	<thead> <!--En-tête du tableau -->
+		<tr>
+			<th>Nom</th>
+			<th>Age</th>
+			<th>Pays</th>
+		</tr>
+	</thead>
+	
+	<tfoot> <!--Pied du tableau -->
+	</tfoot>
+	
+	<tbody> <!-- Corps -->
+		<tr>
+			<td>Carmen</td>
+			<td>33 ans</td>	
+			<td>Espagne</td>
+		</tr>
+		<tr>
+			<td>Claire</td>
+			<td>12 ans</td>	
+			<td>USA</td>
+		</tr>
+		<tr>
+			<td>Michel</td>
+			<td colspan="2">France</td>
+		</tr>		
+	</tbody>
+</table>
+
+
+<!-- Les Formulaires -->
+
+<p>Texte avant un formulaire</p>
+
+<form method="post" action="traitement.php">
+	<p>
+	<label for="pseudo">Votre pseudo </label>:<input type="text" name="pseudo" id="pseudo" /><!--Texte dans mon formulaire-->
+	<br />
+	<label for="pass">Mot de passe </label>:<input type="password" name="pass" id="pass" />
+	<br />
+	<label for="ameliorer">Comment pensez vous améliorer le site  </label>?<textarea name="ameliorer" id="ameliorer" rows="10" cols="50" ></textarea>
+	</p> 
+</form>
+
+<p>Texte après un formulaire</p>
+	</body>
+</html>

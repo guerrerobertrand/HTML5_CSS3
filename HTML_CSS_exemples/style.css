@@ -1,0 +1,134 @@
+/* fichier style.css par Bertrand, mon premier CSS */
+
+p /* les paragraphes seront en bleu*/
+{
+	color:blue;
+	font-size:large;
+	/*background-color:green; /* couleur des paragraphes */ */
+	opacity:0.6; /* transparence des paragraphes*/
+}
+
+.introduction
+{
+	color:red;
+	font-size:1.3em;
+}
+
+.salutations
+{
+	color:green;
+	font-size:xx-large;
+}
+
+
+/* les polices courantes */
+.police1
+{
+font-family:Arial;
+}
+.police2
+{
+font-family:"Arial Black";
+}
+.police3
+{
+font-family:Verdana;
+}
+.police4
+{
+font-family:sans-serif;
+}
+.police5
+{
+font-family:"Comic sans MS";
+}
+.police6
+{
+color:#000000; /*couleur noire*/
+font-family:"Courier New";
+}
+.police7
+{
+font-family:Georgia;
+}
+.police8
+{
+font-family:Impact;
+}
+.police9
+{
+font-family:"Times New Roman";
+}
+.police10
+{
+color: rgb(240, 96, 204); /*couleur rose*/
+font-family:"Trebuchet MS";
+}
+
+h1
+{
+	font-weight:bold;
+	text-decoration:underline;
+	text-align:center;
+}
+
+h2
+{
+	border: 2px blue solid;
+	font-style:italic;
+	text-decoration:line-through;
+}
+
+/*
+.imageflottante
+{
+	float:left;
+}
+.dessous
+{
+	clear:both;
+}
+*/
+
+mark
+{
+	background-color:fuchsia;
+}
+
+body
+{
+	background-image: url("/Users/bertrand/Documents/laboratoire/myPictures/sophie.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:top right;
+
+}
+
+
+a
+{
+	text-decoration:none;
+	color:red;
+	font-style:italic;
+}
+a:hover
+{
+	text-decoration:underline;
+	color:yellow;
+}
+
+
+a:active /* quand le visiteur clic sur le lien */
+{
+	background-color:maroon;
+}
+
+a:focus /* quand le visiteur sélectionne le lien */
+{
+	background-color: #FFCC66;
+}
+
+a:visited
+{
+	color:#AAA /* couleur grise */;
+}
