@@ -51,7 +51,6 @@ strong
 	top:10px; */ /* Pour changer la position d'un mot... */
 }
 
-
 table
 {
 	border-collapse:collapse;
@@ -61,4 +60,6 @@ td, th
 {
 	border:1px solid black;
 	text-align:center;
+	color:blue;
 }
+

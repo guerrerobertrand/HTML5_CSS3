@@ -47,11 +47,22 @@ body
 	color:#181818;
 }
 
+/* si la largeur de fenêtre est supérieure à 1024px alors la page fait 900 px de large */
 #bloc_page
 {
-	width:80%;
+	width:900px;
 	margin:auto;
 }
+
+@media all and (max-width:1024px)
+{
+	#bloc_page
+	{
+		width:auto; /* si la largeur de fenêtre est inférieure à 1024px alors la page prend toute la place */
+	}
+}
+
+
 
 section h1, footer h1, nav a
 {
@@ -126,6 +137,31 @@ nav a:hover
 	border-bottom:3px solid #760001;
 }
 
+/* Media Queries sur le nav */
+@media all and (max-width:1024px)
+{
+	nav
+	{
+		width:auto;
+		text-align:left;
+	}
+	nav li
+	{
+		display:block;
+		padding-left:4px;	
+	}
+	nav a
+	{
+		font-size:1.1em;
+	}
+	nav a:hover
+	{
+		border-bottom:0;
+	}
+}
+
+
+
 /* la Bannière */
 
 #banniere_image
@@ -176,12 +212,50 @@ nav a:hover
 	border: 0;
 }
 
+/* Media Queries pour masquer la bannière en dessous de largeur 1024 px */
+@media all and (max-width:1024px)
+{
+	#banniere_image
+	{
+		display:none;
+	}
+}
+
+
+/* Media Queries sur le "A propos de l'Auteur" */
+
+@media all and (max-width:1024px)
+{
+	article, aside
+	{
+		width:auto;
+		display:block;
+		margin-bottom:15px;
+	}
+
+	#fleche_bulle
+	{
+		display:none;
+	}
+
+	#photo_zozor img
+	{
+		width:110px;
+		float:right;
+		margin-left:15px;
+	}
+
+	aside p:last-child /* sélecteur avancé: tous les paragraphes de "aside":le dernier ont le texte aligné */
+	{
+		text-align:center;
+	}
+}
 
 /* Le Corps de la page */
 
 article, aside
 {
-	display:inline-block;
+	/*display:inline-block;*/
 	vertical-align:top;
 	text-align:justify;
 }

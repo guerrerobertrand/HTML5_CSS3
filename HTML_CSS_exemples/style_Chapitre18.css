@@ -1,0 +1,34 @@
+
+/* EXEMPLES */
+
+/* sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+/*@media screen and (max-width:1280px) */
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+/*@media all and (min-width:1024px) and (max-width:1280px)*/
+
+/* Sur les téléviseurs */
+/*@media tv*/
+
+/* Sur tous les types d'écrans orientés verticalement */
+/*@media all and (orientation: portrait)*/
+
+
+/* L'apparence du texte change en fonction de la taille de la fenêtre */
+
+/* Paragraphes en bleu par défaut */
+p
+{
+	color:blue;
+}
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width:1024px)
+{
+	p
+	{
+		color:red;
+		background-color:black;
+		font-size:1.2;
+	}
+}
