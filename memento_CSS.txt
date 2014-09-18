@@ -1,0 +1,103 @@
+/* le 18/09/2014 Chapitre 22 */
+
+
+/* Propriétés de mise en forme du texte */
+ /*  */
+
+font-family /* Nom de police */
+@font-face /* Police personnalisée */
+font-size /* Taille du texte */
+font-weight /* Gras */
+font-style /* Italique */
+text-decoration /* Soulignement, ligne au dessus, barrée, etc... */
+font-variant /* Petites capitales */
+text-transform /* Capitales */
+font /* SUPER PROPRIETE de police qui combine : font-weight, font-style, font-size, font-variant, font-family */
+text-align /* Alignement horizontal */
+vertical-align /* Alignement vertical (cellules de tableau ou élément de type inline-block uniquement) */
+line-height /* Hauteur de ligne */
+text-indent /* Alinéa */
+white-space /* Césure */
+word-wrap /* Césure forcée */
+text-shadow /* Ombre de texte */
+
+
+/* Propriétés de couleur et de fond */
+ /*  */
+
+color /* Couleur du texte */
+background-color /* Couleur du fond */
+background-image /* Image de fond */
+background-attachment /* Fond fixe */
+background-repeat /* Répétition du fond */
+background-position /* Position du fond */
+background /* SUPER PROPRIETE du fond qui combine : background-image, background-repeat, background-attachment, background-position */
+opacity /* Transparence */
+
+
+/* Propriétés des boîtes */
+ /*  */
+
+width /* Largeur */
+height /* Hauteur */
+min-width /* Largeur minimale */
+max-width /* Largeur maximale */
+min-height /* Hauteur minimale */
+max-height /* Hauteur maximale */
+margin-top /* Marge en haut */
+margin-left /* Marge à gauche */
+margin-right /* Marge à droite */
+margin-bottom /* Marge en bas */
+margin /* SUPER PROPRIETE de marge qui combine : margin-top, margin-left, margin-right, margin-bottom */
+padding-top /* Marge intérieure en haut */
+padding-left /* Marge intérieure à gauche */
+padding-right /* Marge intérieure à droite */
+padding-bottom /* Marge intérieure en bas */
+padding /* SUPER PROPRIETE de Marge intérieure qui combine : padding-top, padding-left, padding-right, padding-bottom */
+border-width /* Epaisseur de bordure */
+border-color /* Couleur de bordure */
+border-style /* Type de bordure (solid, dashed,...) */
+border /* SUPER PROPRIETE de bordure qui combine : border-width, border-color, border-style (existe aussi pour les -top, left, etc...*/
+border-radius /* Bordure arrondie */
+box-shadow /* Ombre de boîte */
+
+
+/* Propriétés de positionnement et d'affichage */
+ /*  */
+
+display /* Type d'élément (block, inline, inline-block, none,...) */
+visibility /* Visibilité */
+clip /* Affichage d'une partie de l'élément */
+overflow /* Comportement en cas de dépassement */
+float /* Flottant */
+clear /* Arrêt d'un flottant */
+position /* Positionnement */
+top /* Position par rapport au haut */
+bottom /* Position par rapport au bas */
+left /* Position par rapport à la gauche */
+right /* Position par rapport à la droite */
+z-index /* Ordre d'affichage en cas de superposition */
+
+
+/* Propriétés des listes */
+ /*  */
+
+list-style-type /* Type de liste */
+list-style-position /* Position en retrait */
+list-style-image /* Puce personnalisée */
+list-style /* SUPER PROPRIETE de liste qui combine : list-style-type, list-style-position, list-style-image */
+
+
+/* Propriétés des tableaux */
+ /*  */
+
+border-collapse /* Fusion des bordures */
+empty-cells /* Affichage des cellules vides */
+caption-side /* Position du titre du tableau */
+
+
+
+/* Autres propriétés */
+ /*  */
+
+cursor /* Curseur de souris */
