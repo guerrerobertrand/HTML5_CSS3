@@ -3,6 +3,10 @@
 <!-- Balises de premier niveau -->
 <!--  -->
 
+<balise en paire></balise en paire>
+<balise orpheline />
+<balise attribut="valeur">
+
 <html> <!-- balise principale -->
 <head> <!-- En-tête de page -->
 <body> <!-- Corps de page -->
