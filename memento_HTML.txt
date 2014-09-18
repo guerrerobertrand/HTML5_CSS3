@@ -1,0 +1,114 @@
+<!-- le 18/09/2014 Chapitre 21 -->
+
+<!-- Balises de premier niveau -->
+<!--  -->
+
+<html> <!-- balise principale -->
+<head> <!-- En-tête de page -->
+<body> <!-- Corps de page -->
+
+<!-- Balises d'en-tête <head> -->
+<!--  -->
+
+<link /> <!-- Liaison avec une feuille de style CSS -->
+<meta /> <!-- Métadonnées de la page <meta charset="utf-8" /> --> 
+<script> <!-- Code Javascript -->
+<style> <!-- Code CSS -->
+<title> <!-- Titre de la page -->
+
+<!-- Balises de structuration du texte -->
+<!--  -->
+
+<abbr> <!-- Abréviation -->
+<blockquote> <!-- Citation longue -->
+<cite> <!-- Citation d'une oeuvre ou d'un évènement -->
+<q> <!-- Citation courte -->
+<sup> <!-- Exposant -->
+<sub> <!-- Indice -->
+<strong> <!-- Mise en valeur forte -->
+<em> <!-- Mise en valeur faible -->
+<mark> <!-- Mise en valeur visuelle -->
+<h1> <!-- Titre de niveau 1 -->
+<h2> <!-- Titre de niveau 2 -->
+<h3> <!-- Titre de niveau 3 -->
+<h4> <!-- Titre de niveau 4 -->
+<h5> <!-- Titre de niveau 5 -->
+<h6> <!-- Titre de niveau 6 -->
+<img /> <!-- Image -->
+<figure> <!-- Figure (image, code, etc...) -->
+<figcaption> <!-- Description de la figure -->
+<audio> <!-- Son -->
+<video> <!-- Vidéo -->
+<source> <!-- Format source pour les balises <audio> et <video> -->
+<a> <!-- Lien Hypertexte -->
+<br /> <!-- Retour à la ligne -->
+<p> <!-- Paragraphe -->
+<hr /> <!-- Lien de séparation horizontale -->
+<address> <!-- Adresse de contact -->
+<del> <!-- Texte supprimé -->
+<ins> <!-- Texte inséré -->
+<dfn> <!-- Définition -->
+<kbd> <!-- Saisie clavier -->
+<pre> <!-- Affichage formaté (pour les codes sources) -->
+<progress> <!-- Barre de progression -->
+<time> <!-- Date ou heure -->
+
+<!-- Balises de listes -->
+<!--  -->
+
+<ul> <!-- Liste à puces non numérotée -->
+<ol> <!-- Liste numérotée -->
+<li> <!-- Elément de la liste à puces -->
+<dl> <!-- Liste de définitions -->
+<dt> <!-- Terme à définir -->
+<dd> <!-- Définition du terme -->
+
+<!-- Balises de tableau -->
+<!--  -->
+
+<table> <!-- Tableau -->
+<caption> <!-- Titre du tableau -->
+<tr> <!-- Ligne du tableau -->
+<th> <!-- Cellule d'en-tête -->
+<td> <!-- Cellule -->
+<thead> <!-- Section de l'en-tête du tableau -->
+<tbody> <!-- Section du corps du tableau -->
+<tfoot> <!-- Section du pied du tableau -->
+
+<!-- Balises de formulaire -->
+<!--  -->
+
+<form> <!-- Formulaire -->
+<fieldset> <!-- Groupe de champs -->
+<legend> <!-- Titre d'un groupe de champs -->
+<label> <!-- Libellé d'un champ -->
+<input /> <!-- Champ de formulaire (texte, mot de passe, case à cocher, bouton, etc...) -->
+<textarea> <!-- Zone de saisie multiligne -->
+<select> <!-- Liste déroulante -->
+<option> <!-- Elément de liste déroulante -->
+<optgroup> <!-- Groupe d'éléments d'une liste déroulante -->
+
+<!-- Balises sectionnantes -->
+<!-- Squelette du site -->
+<!--  -->
+
+<header> <!-- En-tête -->
+<nav> <!-- Liens principaux de navigation "Menu" -->
+<footer> <!-- Pied de page -->
+<section> <!-- Section de page -->
+<article> <!-- Article (Contenu autonome) -->
+<aside> <!-- Informations complémentaires -->
+
+<!-- Balises génériques -->
+<!-- Balises universelles, qui n'ont pas de sens sémantique -->
+<!-- En général utilisées pour le design -->
+
+<span> <!-- Balise générique de type inline -->
+<div> <!-- Balise générique de type block -->
+
+<!-- Balises génériques accompagnées d'attributs: -->
+<span class="indique le nom de la classe CSS à utiliser" id="nom unique pour manipuler ancres, JavaScript, ou CSS">
+<ces 2 attributs "class" et "id" sont utilisés partout dans la plupart des balises>
+
+
+
