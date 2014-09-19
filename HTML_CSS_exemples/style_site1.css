@@ -42,6 +42,12 @@ a
 	display:none;
 }
 
+div
+{
+	margin:auto;
+	margin-bottom: 50px;
+}
+
 strong
 {
 	background-color:red; /* Couleur du fond en Rouge */

@@ -114,5 +114,34 @@
 <span class="indique le nom de la classe CSS à utiliser" id="nom unique pour manipuler ancres, JavaScript, ou CSS">
 <ces 2 attributs "class" et "id" sont utilisés partout dans la plupart des balises>
 
+<!--  --><!--  --><!--  --><!--  -->
+<!--  --><!--  --><!--  --><!--  -->
 
+<!-- Suppléments; Révisions -->
+
+<!--  --><!--  --><!--  --><!--  -->
+<!--  --><!--  --><!--  --><!--  -->
+
+
+<!-- Langues -->
+<HTML lang="fr" /> <!-- Langue de traitement, contenu de la page -->
+
+<!-- Référencement -->
+<!-- balise <meta> -->
+
+<meta name="keywords" content="mot-clé1, mot-clé2, mot-clé3, ..." /> <!-- n'est plus indexé par Google... obsolète ? -->
+<meta name="description" content="Description de la page en quelques mots, phrases,... />
+<meta name="author" content="Nom de l'auteur" />
+
+<!-- Style dans fichier externe CSS -->
+<head><link rel="stylesheet" href="style.css" /></head>
+
+<!-- jQuery = Premiers pas -->
+
+	// référence à la bibliothèque (ici version light, distante)
+<script src=http://code.jquery.com/jquery.min.js></script>
+
+<script>
+	// une ou plusieurs instructions jQuery
+</script>
 

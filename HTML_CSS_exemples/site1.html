@@ -4,6 +4,9 @@
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" href="style_site1.css" />
 		<title> Mon site personnel </title>
+		
+		<script src=http://code.jquery.com/jquery.min.js></script>
+		
 	</head>
 
 	<body>
@@ -12,6 +15,18 @@
 			<h2 class="secret">Menu</h2>
 		</header>
 
+	<div>	
+		<h1>Exemple 1: jQuery </h1>
+		Ce texte est affiché en HTML<br / > 
+		
+		<span id="texte2"></span> 
+		<script>
+			$(function(){
+				$('#texte2').html('... et celui-ci par jQuery.');
+			});
+		</script>
+	</div>
+	
 		<nav>
 			<ul>
 				<li><a href="#">Accueil</a></li>
