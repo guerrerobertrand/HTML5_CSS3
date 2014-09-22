@@ -1,0 +1,40 @@
+label
+{
+	display: inline-block;
+	width: 130px; 
+	margin-left: 10px;
+}
+
+input
+{
+	display: inline-block;
+	width: 200px;
+}
+
+input[type="submit"]
+{
+	margin-left: 144px;
+	width: 150px;
+}
+
+input 
+{
+	margin-bottom: 10px;
+}
+
+fieldset
+{
+	width: 400px;
+	background-color: #E3FAF4;
+	margin-bottom: 50px;
+}
+
+input[type=text]:invalid
+{
+	background-color: red;
+}
+
+input[type=text]:valid
+{
+	background-color: green;
+}

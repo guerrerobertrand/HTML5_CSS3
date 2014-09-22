@@ -1,0 +1,73 @@
+<!-- pdfChapitre8_TPFormulaires-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="style_pdfChapitre8_TPFormulaires.css"/>
+	<title>Chapitre 8 Les formulaires </title>
+	<script src=http://code.jquery.com/jquery.min.js></script>
+</head>
+<body>
+	<script src="jquery_pdfChapitre8_TPFormulaires.js"></script>
+	<header></header>
+<!--Exemple de formulaire de login-->
+	<form action="traitement.php" method="post">
+		<fieldset>
+		<legend>Entrez vos identifiants</legend>
+		<br><label>Nom d’utilisateur</label>
+		<input type="text" name="user" id="user" required><br>
+		<label>Mot de passe</label>
+		<input type="password" name="pass" id="pass"><br>
+		<label>Entrez vos commentaires</label><br>
+		<textarea name="commentaire" id="commentaire" cols="80" rows="10"></textarea>
+		<input type="submit" name="connect" id="connect" value="Connexion"><br>
+		<br>
+		</fieldset>
+		
+		<fieldset>
+		<legend> Qui a le focus ? </legend>
+		<br><label>Prénom</label>
+		<input type="text" name="prenom" id="prenom"> <br><label>Nom</label>
+		<input type="text" name="nom" id="nom">
+		<br><label>Adresse</label>
+		<input type="text" name="adresse" id="adresse">
+		<br><input type="submit" name="envoyer" id="envoyer" value="Envoyer"><br> <br><span id="info"></span>
+		</fieldset>
+	</form>
+	
+	<form id="validation">
+		
+<label>Nom</label>
+		<input name="Nom" id="nom"><br>
+		<label>e-mail</label>
+		<input type="text" id="mail" name="email" pattern="[a-z0-9._-]+@[a-z]{2,}\.[a-z]{2,4}" title="Mauvaise adresse e-mail"><br>
+		<label>Adresse URL</label>
+		<input type= "url" id="siteweb" name="url" required><br>
+		<label>Téléphone</label>
+		<input type="text" id="mobile" name="phone" pattern="[0-9]{10,10}" title="Mauvais numéro de téléphone"><br>
+		<input type=submit value="Valider"></p>
+	</form>
+
+
+	<form name=editor>
+		<div id="donnees">
+			<h2>Définissez la donnée à stocker</h2>
+			<p><label>Nom</label> <input type="text" name="name">
+			<label>Valeur</label> <input type="text" name="data"></p>
+			<p>
+			<input type="button" value="Lire" onclick="Lit()">
+			<input type="button" value="Enregistrer" onclick="Enregistre()">
+			<input type="button" value="Effacer" onclick="Efface()">
+			<input type="button" value="Tout effacer" onclick="EffaceTout()">
+			</p>
+		</div>
+	<br><br>
+		<div id="valeurs">
+			<h2>Données stockées</h2>
+			<table id="NomValeur" border="1"></table>
+		</div>
+	</form>
+
+	<footer></footer>
+</body>
+</html>

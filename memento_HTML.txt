@@ -31,7 +31,11 @@
 <sub> <!-- Indice -->
 <strong> <!-- Mise en valeur forte -->
 <em> <!-- Mise en valeur faible -->
-<mark> <!-- Mise en valeur visuelle -->
+<b></b> <!-- Texte en gras -->
+<i></i> <!-- Texte en italique -->
+<u></u> <!-- Texte souligné -->
+<mark> <!-- Mise en valeur visuelle = surligné -->
+<small></small> <!-- texte de petite taille -->
 <h1> <!-- Titre de niveau 1 -->
 <h2> <!-- Titre de niveau 2 -->
 <h3> <!-- Titre de niveau 3 -->
@@ -45,6 +49,11 @@
 <video> <!-- Vidéo -->
 <source> <!-- Format source pour les balises <audio> et <video> -->
 <a> <!-- Lien Hypertexte -->
+<!-- Exemple d'ancre et/ou de lien interne à la page -->
+<h2 id="haut">Haut de page</h2>
+<a href="#haut">Accéder au début de la page</a> <!-- lien interne -->
+<a name="haut" /><!-- Ancre -->
+<a href="introduction.html#partieSpecifique">Accéder à la partie spécifique de l'intro </a> <!-- lien externe = partie spécifique -->
 <br /> <!-- Retour à la ligne -->
 <p> <!-- Paragraphe -->
 <hr /> <!-- Lien de séparation horizontale -->
