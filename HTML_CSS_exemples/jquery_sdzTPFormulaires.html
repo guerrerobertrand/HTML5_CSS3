@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style_jquery_sdzTPFormulaires.css"/>
+	<script src=http://code.jquery.com/jquery.min.js></script>
+	<title>TP Formulaires du SDZ </title>
+</head>
+
+<body>
+<script src="jquery_sdzTPFormulaires.js"></script>
+<h1>TP : le formulaire interactif </h1>
+<form>
+		<fieldset>
+		
+		<label for="pseudo">Pseudonyme</label>
+		<input type="text" name="pseudo" id="pseudo" class="champ"></input>
+		
+		<label for="mdp">Mot de passe</label>
+		<input type="password" name="mdp" class="champ"></input>
+		<label for="confirmation">Confirmation</label>
+		<input type="password" class="champ" id="confirmation"></input>		
+		<label for="mail">Adresse email</label>
+		<input type="text" class="champ" id="mail"></input>
+				
+		</fieldset>
+
+		<fieldset>
+		<input type="submit" id="envoi" value="Envoyer" />
+		<input type="reset" id="rafraichir" value="Rafraîchir" />
+		</fieldset>
+		
+		<div id="erreur">
+			<p>Vous n'avez pas correctement rempli les champs du formulaire !</p>
+		</div>
+</form>
+
+</body>
+</html>

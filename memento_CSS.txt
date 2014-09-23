@@ -101,3 +101,13 @@ caption-side /* Position du titre du tableau */
  /*  */
 
 cursor /* Curseur de souris */
+
+
+/* Media Queries = Responsive Design */
+@media(max-width:largeur){...} /* Largeur de la fenêtre inférieure à largeur spécifiée */
+@media(max-device-width:largeur){...} /* Largeur du périphérique inférieure à largeur spécifiée */
+@media(min-width:largeur1)and(max-width:largeur2){...} /* Largeur de la fenêtre comprise entre les 2 largeurs spécifiées */
+@media(max-device-width:largeur)and(orientation:landscape){...} /* Largeur du périphérique inférieure à la largeur spécifiée et écran tenu en paysage */
+
+
+

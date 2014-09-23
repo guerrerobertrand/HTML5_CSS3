@@ -154,3 +154,9 @@
 	// une ou plusieurs instructions jQuery
 </script>
 
+// Exemples de sélecteurs...
+/*
+$('input:button'); // on sélectionne un input de type button
+$('input:password'); // on sélectionne un input mot de passe
+$('input:submit'); // on sélectionne un button d'envoi
+*/

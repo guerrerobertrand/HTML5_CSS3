@@ -1,0 +1,41 @@
+label
+{
+	display: inline-block;
+	width: 130px; 
+	margin-left: 10px;
+}
+
+input
+{
+	display: inline-block;
+	width: 200px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+
+fieldset
+{
+	width: 400px;
+	background-color: #E3FAF4;
+	margin-bottom: 50px;
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+form
+{
+	padding-left:400px;
+	padding-top:100px;
+}
+
+input[type="submit"],input[type="reset"]
+{
+	margin-left: 150px;
+	width: 150px;
+}
+
+
+div#erreur
+{
+	display:none;
+}

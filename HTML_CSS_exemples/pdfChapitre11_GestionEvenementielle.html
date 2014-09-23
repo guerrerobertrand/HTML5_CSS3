@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- chapitre 11 pdf 23/09/2014 -->
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Gestion événementielle</title>
+	<script>
+		function load(){
+		document.getElementById("status").innerHTML = "L’événement 'load' a été généré.";
+		}
+		function bouton(b){
+		
+document.getElementById("status").innerHTML = "Le bouton " +b + " a été cliqué.";
+		}
+		</script>
+</head>
+<body onload="load();" onunload="unload();">
+		<p>Status: <span id="status">En attente.</span></p>
+		<button onClick="bouton(1)">Bouton 1</button>
+		<button onClick="bouton(2)">Bouton 2</button>
+	</body>
+
+</html>
