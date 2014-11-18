@@ -242,8 +242,9 @@ footer article, footer div{
 	//padding:0.05rem;
 	//margin:40px 0;
 	height:140px;
-	width:400;
-	color:red;
+	width:38%;
+	//color:red;
+
 }
 footer a, footer a:visited{
 	color: #000;
@@ -254,7 +255,7 @@ footer a:hover, footer a:active{
 }
 /** FOOTER Article **/
 footer article{
-	width:950px;
+	//width:950px;
 	padding: 20px;
 	background:#EAEAEA;
 	box-shadow: 1px 1px 12px #ccc;
@@ -279,6 +280,7 @@ footer #copyright{
 }
 
 footer nav{
+	padding-right:750px;
 	font-size: 0.8em;
 	float:right;
 	text-align:left;
@@ -318,7 +320,8 @@ footer nav a
 }
 
 #copyright{
-	margin-left:auto;
+	padding-top:25px;
+	margin-left:780px;
 }
 
 
@@ -334,71 +337,74 @@ footer nav a
 /*--------------------------------------------------------------------- */
 /*--------------------------------------------------------------------- */
 
+@media (max-width: 320px) {
 
-/*--------------------------------------------------------------------- */
-/* Si la fenêtre fait au plus 1024px de large */
-@media all and (max-width: 1024px)
-{
-	nav li{
-		width: calc( 86% / 4 );
-	}
-	header div#accorche{
-		min-height: none;
-		max-width: none;
-		width: 88%;
-		box-sizing: border-box;
-	}
-	/* SECTION */
-	section{
-		margin: 0 auto;
-	}
-	/** Article **/
-	section article{
-		display: block;
-		width: auto;
-		height: auto;
-		padding: 2%;
-		vertical-align: top;
-		background:#fff;
-		box-shadow: 1px 1px 12px #ccc;
-	}
-	/** FIN Article **/
-	/** Aside **/
-	section aside{
-		display: block;
-		width: 100%;
-		text-align: center;
-		padding: 2%;
-	}
-	section aside img{
-		width: auto;
-		height: auto;
-	}
-	/** FIN Aside **/
-	/* FOOTER */
-	footer #copyright, footer nav{
-		display: block;
-		width: 100%;
-		padding: 0;
-	}
-	footer nav{
-		margin: 5px 0 0 0;
-		text-align: right;
-	}
-	/* FIN FOOTER */
-}
-/*--------------------------------------------------------------------- */
+/*----  ajuster le header background-image --- */
+header{
+	height:450px;
+	background: url('dogbanner.jpg') no-repeat top center ;
+	background-size:cover;
+	padding:auto;
+	padding-bottom:140px;
+	margin:auto;
 
-/*--------------------------------------------------------------------- */
-/* Si la fenêtre fait au plus 384px de large */
-@media all and (max-width: 384px)
-{
-	section aside img{
-		width: 40%;
-		height: 40%;
-	}
-	/** FIN Aside **/
+}  
+/*----  ajuster le cadre transparent header --- */
+#transparent{
+	width:70%;
+	height:100%;
+	text-align:left;
+	//padding:5px;
+	padding-bottom:15px;
+	margin:15px;
+	margin-bottom:30px;	
 }
+/*----  aligner le menu en carré --- */
+header nav li {
+	display:block;
+	margin-left:120px;
+}
+header nav ul {
+	padding-bottom:0px;
+}
+/*----  ajuster le texte cadre transparent --- */
+/*----  centrer cadre blanc carré --- */
+#cadre{
+		padding-top:0px;
+		margin-left:35px;
+		//width:100%;
+}
+#cadre>article{
+		width:80%;
+}
+.imageflottante{
+		width:110px;
+		height:110px;
+		margin:10px;
+}
+#photos{
+ 		margin-left:25px;
+}
+/*----  ajuster le titre cadre blanc --- */
+/*----  centrer les portraits de chiens div=photos --- */
+/*----  élargir id=contact cadre arrondi gris --- */
+/*----  ajuster le texte cadre arrondi gris --- */
+/*----  ajuster bouton2 cadre arrondi gris --- */
+/*----  aligner à gauche p copyright --- */
+#copyright{
+	padding-top:5px;
+	margin-left:5px;
+}
+/*----  aligner en dessous centre nav --- */
+/*----  voir marges globales --- */
+/*----  faire règles pour orientation landscape --- */
+
+}
+@media (max-device-width:768px) and (orientation: landscape) {
+
+}
+
+
 /*--------------------------------------------------------------------- */
 
 
