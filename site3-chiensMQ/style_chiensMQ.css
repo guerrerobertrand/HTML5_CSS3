@@ -389,6 +389,17 @@ header nav ul {
 /*----  centrer les portraits de chiens div=photos --- */
 /*----  élargir id=contact cadre arrondi gris --- */
 /*----  ajuster le texte cadre arrondi gris --- */
+footer > article{
+	float:none;
+	width:auto;
+	position:absolute;
+}
+#bouton2{
+	position:relative;
+	top:10px;
+	right:50px;
+}
+	
 /*----  ajuster bouton2 cadre arrondi gris --- */
 /*----  aligner à gauche p copyright --- */
 #copyright{
