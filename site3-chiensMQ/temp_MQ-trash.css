@@ -1,0 +1,393 @@
+body{
+	background-color:#EAEAEA;
+	margin:0;
+	padding:0;
+}
+
+p{
+	margin:0;
+	/*un exemple de police*/	
+	font-family:'Trebuchet MS', Arial, sans-serif;
+}
+
+/* Trait horizontal blanc */
+hr{
+	width:50%;
+	color:white;
+	margin-left:30%;
+}
+
+/* Les titres */
+
+h1,h2{
+	font-family:'Trebuchet MS', Arial, sans-serif;
+}
+
+#titre1{
+	color:white;
+	text-align:center;
+}
+#titre2{
+	color:white;
+	text-align:center;
+}
+
+#titre3{
+	color:white;
+	text-align:left;
+}
+#titre4{
+	color:black;
+	text-align:left;
+}
+#titre5{
+	color:black;
+	text-align:left;
+}
+
+
+/* Partie Header Image de fond qui bouge */
+header{
+	background-image: url(dogbanner.jpg);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: cover;
+	width:100%;
+	//height:540px;
+	float: left;
+    margin: 0 0px 30px 0;
+    padding-bottom:30px;
+}
+
+/*Partie Header Cadre transparent */
+#transparent{
+	background-color:rgba(67,58,42,0.7);
+	width:470px;
+	height:300px;
+	text-align:left;
+	margin-left:30%;
+	float:left;
+	padding-left:1%;
+	padding-right:1%;	
+	padding-top:1%;	
+}
+
+/* Partie Header Menu  centré */
+menu
+{
+	width:100%;
+	display:inline-block;
+	text-align:center;
+}
+
+menu ul
+{
+	text-align:center;
+	list-style-type:none;
+}
+
+menu li
+{
+	display:inline-block;
+	margin-right:55px;
+}
+
+menu a
+{
+	font-size:1em;
+	color:white;
+	padding-bottom:3px;
+	text-decoration:none;
+} 
+
+/* survol d'un item */
+menu ul li a:hover {
+	color:gray;
+}
+
+
+#para1, #para2, #para3{
+	color:white;
+    font-weight:bold;
+}
+
+#bouton1{
+	border-radius:5px;
+	border:2px solid white;
+	width:190px;
+	height:50px;
+	text-align:center;
+}
+
+#bouton1:hover {
+	background-color:gray;
+}
+
+
+#para3{
+	padding-top:10px;
+}
+
+/* Partie 2 = Section carrée */
+#cadre{
+	background-color:white;
+	width:670px;
+	height:300px;
+	text-align:left;
+	margin-bottom:20px;
+	margin-left:30%;
+	float:left;
+	padding-left:1%;
+	padding-right:1%;
+}
+
+/* Partie 2 = Portraits de chiens */
+#photos{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+aside{
+	display:inline-block;
+	width:320px;
+}
+
+.imageflottante{
+	float:left;
+	margin-left:20px;
+	margin-bottom:20px;
+	width:140px;
+	height:140px;
+}
+
+
+/* Partie Footer = fond blanc */
+#pied{
+	clear:both;
+	background-color:#FFFFFF;
+	width:100%;
+	margin-top:20px;
+	padding-top:30px;
+	height:100%;
+}
+
+/* Partie Footer = menu 2 */
+nav
+{
+	//float:left;
+	text-align:right;
+	padding-right:30%;	
+}
+nav ul
+{
+	text-align:right;
+	list-style-type:none;
+}
+nav li
+{
+	display:inline;
+	margin-right:15px;
+}
+nav a
+{
+	font-size:0.9em;
+	color:black;
+	padding-bottom:3px;
+	text-decoration:none;
+} 
+nav ul li a:hover {
+	color:gray;
+}
+
+/* Partie Footer = cadre arrondi de Contact */
+#contact{
+	width:970px;
+	height:140px;
+	background-color:#EAEAEA;
+	text-align:left;
+	margin-left:30%;
+	border-radius:5px;
+	margin-bottom:2%;
+	box-shadow: 0 4px 4px #1c1a19;
+	padding-left:1%;
+	padding-right:2%;
+	padding-top:1%;
+	padding-bottom:2%;	
+}
+
+#bouton2{
+	border-radius:5px;
+	border:2px solid black;
+	width:180px;
+	height:50px;
+	text-align:center;
+	float:right;
+}
+
+#bouton2:hover {
+	background-color:gray;
+}
+
+#para4{
+	padding-top:10px;
+}
+
+#titre6{
+	font-size:0.9em;
+	font-weight:normal;
+	//margin-left:780px;
+	margin-left:30%;	
+}
+
+/************KATIA*************/
+/*--------------------------------------------------------------------- */
+/* Si la fenêtre fait au plus 1024px de large */
+@media all and (max-width: 1024px)
+{
+	nav li{
+		width: calc( 86% / 4 );
+	}
+	header div#accorche{
+		min-height: none;
+		max-width: none;
+		width: 88%;
+		box-sizing: border-box;
+	}
+	/* SECTION */
+	section{
+		margin: 0 auto;
+	}
+	/** Article **/
+	section article{
+		display: block;
+		width: auto;
+		height: auto;
+		padding: 2%;
+		vertical-align: top;
+		background:#fff;
+		box-shadow: 1px 1px 12px #ccc;
+	}
+	/** FIN Article **/
+	/** Aside **/
+	section aside{
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 2%;
+	}
+	section aside img{
+		width: auto;
+		height: auto;
+	}
+	/** FIN Aside **/
+	/* FOOTER */
+	footer #copyright, footer nav{
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+	footer nav{
+		margin: 5px 0 0 0;
+		text-align: right;
+	}
+	/* FIN FOOTER */
+}
+/*--------------------------------------------------------------------- */
+
+/*--------------------------------------------------------------------- */
+/* Si la fenêtre fait au plus 384px de large */
+@media all and (max-width: 384px)
+{
+	section aside img{
+		width: 40%;
+		height: 40%;
+	}
+	/** FIN Aside **/
+}
+
+/***********************/
+@media (max-width: 640px) {
+    * {
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+    
+    /* passer body (et tous les éléments de largeur fixe) en largeur automatique */
+
+    body {
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
+
+    img,
+    table,
+    td,
+    blockquote,
+    code,
+    pre,
+    textarea,
+    input,
+    iframe,
+    object,
+    embed,
+    video {
+        max-width: 100%;
+    }
+    
+    /* conserver le ratio des images */
+
+    img {
+        height: auto;
+    }
+    
+    /* gestion des mots longs */
+
+    textarea,
+    table,
+    td,
+    th,
+    code,
+    pre,
+    samp {
+        -webkit-hyphens: auto; /* césure propre */
+        -moz-hyphens: auto;
+        hyphens: auto;
+        word-wrap: break-word; /* passage à la ligne forcé */
+    }
+    
+    code,
+    pre,
+    samp {
+        white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+    }
+    
+    /* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
+
+    element1,
+    element2 {
+        float: none;
+        width: auto;
+    }
+    
+    /* masquer les éléments superflus */
+
+    .hide_mobile {
+        display: none !important;
+    }
+    
+    /* Un message personnalisé */
+
+    body:before {
+        content: "Version mobile du site";
+        display: block;
+        text-align: center;
+        font-style: italic;
+        color: #777;
+    }
+}
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML5, CSS3 and JavaScript demo</title>
+</head>
+<body>
+
+  <form name="formu" action="traitement.php" method="post" enctype="multipart/form-data">
+    <input type="text" value="" placeholder="votre login"/>
+    <br/>
+    <br/>    
+    <input type="password" value="" placeholder="mot de passe"/>
+    <br/>
+    <br/>    
+    <input type="file"/>
+    <br/>
+    <br/>    
+    <!--association par 2 de radio lien, soit l'une soit l'autre-->
+    <input type="radio" name="toto" value="oui" checked/>
+    <input type="radio" name="toto" value="non"/>
+    <br/>
+    <br/>    
+    <input type="checkbox" name="titi1" value="1"/>
+    <input type="checkbox" name="titi2" value="2" checked="checked"/>
+    <input type="checkbox" name="titi3" value="3" checked="checked"/>
+    <br/>
+    <br/>    
+    <select name="liste">
+      <option value="1">option 1</option>
+      <option value="2">option 2</option>
+      <option value="3" selected="selected">option 3</option>
+      <option value="4">option 4</option>
+    </select>    
+    <br/><br/>
+    <textarea>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </textarea>
+    
+    
+    
+    <input type="button" value="bouton neutre"/>
+    
+    <input type="submit" value="ENVOYER"/>
+    <input type="reset" value="ANNULER"/>
+    
+    
+  </form>
+  
+  </body>
+</html>
